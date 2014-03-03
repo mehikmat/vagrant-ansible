@@ -27,6 +27,7 @@ $ cd vagrant-ubuntu
 $ ./setup
 
 ==============OR===============
+
 You can download ubuntu box from web
 
 After replacing box url in Vagrantfile
