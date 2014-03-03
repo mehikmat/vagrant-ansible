@@ -1,0 +1,4 @@
+---
+- hosts: Zookeepers
+  roles:
+   - common

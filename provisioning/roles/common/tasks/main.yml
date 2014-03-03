@@ -1,0 +1,5 @@
+---
+- name: Copy the test configuration files
+  template: src={{ item }}.j2 dest=/home/vagrant/{{ item }} mode=0644
+  with_items:
+   - test.xml
